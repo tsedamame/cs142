@@ -1,0 +1,19 @@
+.user-detail-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+span {
+  font-weight: bold;
+}
+
+.user-detail-container .btn {
+    margin-top: 15px;
+    background-color: rgb(7, 105, 253);
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    color: #f9f9f9;
+  }

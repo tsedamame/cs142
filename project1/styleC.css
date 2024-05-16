@@ -1,0 +1,49 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  height: 150px;
+  width: 100px;
+  background: #eeeff2;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-left: 10px dotted #d0d0ff;
+  animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.box:hover {
+  cursor: pointer;
+  background: yellow;
+  color: goldenrod;
+}
+
+.box3 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transition: 1s;
+}
+
+.box3:hover {
+  width: 200px;
+}
+
+@keyframes color {
+  0% {
+    background: yellow;
+  }
+  50% {
+    background: red;
+  }
+  100% {
+    background: yellow;
+  }
+}
